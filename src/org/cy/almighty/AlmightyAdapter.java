@@ -1,4 +1,4 @@
-package org.cy.customeradapter.adapter;
+package org.cy.almighty;
 
 import android.view.LayoutInflater;
 import android.view.View;

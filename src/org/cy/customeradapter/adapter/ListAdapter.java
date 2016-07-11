@@ -2,6 +2,11 @@ package org.cy.customeradapter.adapter;
 
 import java.util.List;
 
+import org.cy.almighty.AlmightyAdapter;
+import org.cy.almighty.AlmightyItem;
+import org.cy.customeradapter.adapter.item.ButtonItem;
+import org.cy.customeradapter.adapter.item.TextItem;
+
 public class ListAdapter extends AlmightyAdapter<String> {
 
 	List<String> mData;

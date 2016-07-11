@@ -1,8 +1,11 @@
-package org.cy.customeradapter;
+package org.cy.demo;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import org.cy.customeradapter.R;
 import org.cy.customeradapter.adapter.ListAdapter;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.ListView;

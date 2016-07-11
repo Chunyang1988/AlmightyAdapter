@@ -1,5 +1,6 @@
-package org.cy.customeradapter.adapter;
+package org.cy.customeradapter.adapter.item;
 
+import org.cy.almighty.AlmightyItem;
 import org.cy.customeradapter.R;
 
 import android.view.LayoutInflater;
