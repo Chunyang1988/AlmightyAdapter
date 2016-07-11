@@ -4,7 +4,7 @@
 
 让Item只管理自己的View
 
-让getView直观逻辑转换
+让getView管理逻辑转换
 
 
 ###AlmightyAdapter<T> 抽象类
