@@ -39,7 +39,7 @@ public class ListAdapter extends AlmightyAdapter<String> {
 	}
 
 	@Override
-	public String hybridData(int position) {
+	public String getViewData(int position) {
 		return mData.get(position);
 	}
 

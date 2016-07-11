@@ -11,14 +11,14 @@
 
 	public abstract AlmightyItem createItem(int position);
 
-	public abstract T hybridData(int position);
+	public abstract T getViewData(int position);
 	
 	
 两个抽象方法
 	
 createItem，创建ItemView，管理自己View
 	
-hybridData 转化数据，赋值给Item让Item更新数据
+getViewData 转化数据，赋值给Item让Item更新数据
 	
 
 ###AlmightyItem<T> 接口

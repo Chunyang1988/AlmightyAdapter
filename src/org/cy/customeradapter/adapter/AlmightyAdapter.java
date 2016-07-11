@@ -11,7 +11,7 @@ public abstract class AlmightyAdapter<T> extends BaseAdapter {
 
 	public abstract AlmightyItem createItem(int position);
 
-	public abstract T hybridData(int position);
+	public abstract T getViewData(int position);
 
 	@Override
 	public Object getItem(int position) {
@@ -37,7 +37,7 @@ public abstract class AlmightyAdapter<T> extends BaseAdapter {
 			item = (AlmightyItem) convertView.getTag();
 		}
 
-		item.getViewData(hybridData(position));
+		item.getViewData(getViewData(position));
 
 		return convertView;
 	}
